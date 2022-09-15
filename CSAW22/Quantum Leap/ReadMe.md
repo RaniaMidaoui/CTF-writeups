@@ -34,7 +34,7 @@ Lets take |10> and |11>:
 This ⊗ represents a tensor product, you can read about it here if you don't know what it is : https://www.math3ma.com/blog/the-tensor-product-demystified
 
 The first qubit is usually referred to as the control qubit and the second qubit as the target qubit. Expressed in basis states, the CNOT gate:
-leaves the control qubit unchanged and performs a Pauli-X gate (which just flips the state of the qubit) on the target qubit when the control qubit is in state ∣1⟩;
+leaves the control qubit unchanged and performs a Pauli-X gate or NOT gate (which just flips the state of the qubit) on the target qubit when the control qubit is in state ∣1⟩;
 leaves the target qubit unchanged when the control qubit is in state ∣0⟩.
 
 As you may have noticed, this challenge can be done manually by converting the output string to binary, taking two bits at a time and checking the value of the most significant bit, if it's 1, the other bit is flipped, else, nothing is done.
