@@ -10,7 +10,7 @@
 The description mentions that we're dealing with a quantum computer with two qubits, se we can assume that the gate the person used to get the output is a two-qubit quantum logic gate.
 
 A quantum gate is basic quantum circuit operating on a small number of qubits, they perform operations to change the state of the qubits, and unlike many classical logic gates, quantum logic gates are reversible.
-Each quantum gate has its matrix, and since the qubit states are represented with vectors, the gates transform these vectors to get a new states.
+Each quantum gate has its matrix, and since the qubit states are represented with vectors, the gates transform these vectors to get new states.
 The state vectors of the states |0> and |1> are:
 
 ![2022-09-15_19h32_37](https://user-images.githubusercontent.com/68945305/190504993-8094b514-dfa2-472f-8622-59867ef2e061.png)
