@@ -52,4 +52,14 @@ Securinets{FINEPIX2650}
 ### Description
 >I wonder what this file can contain.
 
-This file was attached:
+This file was attached: [file.kmz](./file.kmz)
+
+KMZ files are KML files that have been compressed for easier download and distribution. Files with the.kmz extension store the locations of the maps that are used by the Google Earth mapping application.
+There is a tool that can help us decompress the KMZ file: https://www.ezyzip.com/open-kmz-file-online.html
+
+![2022-10-04_22h21_56](https://user-images.githubusercontent.com/68945305/193932302-d4381814-6481-4c4b-a834-3dac1658c178.png)
+It will extract the KML file.
+Since the flag is in the KML file, you can check if its plaintext by strings, you can find the flag. Its the easiest way.
+
+Securinets{kml_m4p5_4r3_1nt3r3st1ng}
+
