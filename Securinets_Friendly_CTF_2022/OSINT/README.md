@@ -53,6 +53,7 @@ Securinets{FINEPIX2650}
 
 This file was attached: [file.kmz](./file.kmz)
 
+### Solution
 KMZ files are KML files that have been compressed for easier download and distribution. Files with the.kmz extension store the locations of the maps that are used by the Google Earth mapping application.
 
 There is a tool that can help us decompress the KMZ file: https://www.ezyzip.com/open-kmz-file-online.html
@@ -89,6 +90,7 @@ This picture was attached:
 
 ![oldtown](https://user-images.githubusercontent.com/68945305/194129123-854afe72-30a2-4f08-b524-daae7110796a.png)
 
+### Solution
 There's many ways to solve this challenge, we'll go with the one that focuses on the description.
 
 The description contained many hints: The first one is Jorgan, which is a common German name (You can also find it in other european countries but its rare). The second hint was "city that attracted him by its architectural remnants as it was spared by World War II bomb raids", so the city contains a lot of monuments and it survived the bombings in WWII, when we search cities with these 2 charactetics, we find articles listing many towns, but the best one is this: https://theculturetrip.com/europe/germany/articles/10-facts-about-heidelberg-you-need-to-know/
