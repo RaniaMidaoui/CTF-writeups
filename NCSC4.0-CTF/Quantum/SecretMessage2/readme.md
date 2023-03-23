@@ -70,15 +70,6 @@ while(1):
         qc.y(q[0])  
         qc.swap(q[1],q[0])     
         qc.h(q[2])
-        '''
-        qc.h(q[2])
-        qc.cx(q[1],q[2])
-        qc.tdg(q[2])
-        qc.cx(q[0],q[2])
-        qc.t(q[2])
-        qc.cx(q[1], q[2])
-        qc.h(q[2])
-        '''
         qc.ccx(q[0],q[1],q[2])
         qc.s(q[2])
 
