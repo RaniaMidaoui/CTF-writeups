@@ -1,3 +1,6 @@
+# Quantum Leap writeup
+![Categorie](https://img.shields.io/badge/Category-Quantum-blue?style=for-the-badge)
+
 ## Description: 
 >Can you make this quantum circuit work? Flag Format: Securinets{output}
 >
