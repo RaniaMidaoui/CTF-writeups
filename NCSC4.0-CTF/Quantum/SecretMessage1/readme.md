@@ -1,3 +1,6 @@
+# SecretMessage1 writeup
+![Categorie](https://img.shields.io/badge/Category-Quantum-blue?style=for-the-badge)
+
 ## Description
 
 >Oh look! I managed to get this super secret message, but i cannot decode it :( The message is the output of this circuit.
@@ -9,3 +12,6 @@
 >Can you help me ?
 >
 >Author: mida0ui
+
+## Solution
+
