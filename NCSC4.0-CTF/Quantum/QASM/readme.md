@@ -1,4 +1,4 @@
-# Quantum Leap writeup
+# QASM writeup
 ![Categorie](https://img.shields.io/badge/Category-Quantum-blue?style=for-the-badge)
 
 ## Description: 
