@@ -23,7 +23,20 @@
 >Author: mida0ui
 
 ## Solution
+From the description of this task, we can see that the CCNOT gate was used, along with other gates to encode the message, meaning that we need to use a quantum register containing 3 qubits to solve this task. The CCNOT gate is similar to the CNOT gate seen in the previous task, but it's a three-qubit gate, it is applied to one target qubit based on the state of two control qubits:
 
+![2023-03-24_12h41_54](https://user-images.githubusercontent.com/68945305/227512203-39c1f52b-4c32-426e-8fb8-676bf2740cd8.png)
+
+To encode the message, a very special gate waas used too, the Hadamard gate.
+The Hadamard gate is a single-qubit operation that maps the basis state ∣0⟩ to ![2023-03-24_12h45_04](https://user-images.githubusercontent.com/68945305/227512818-c69dc67e-3b9a-4110-806a-68a1d8259f4f.png) = |+> and |1> to ![2023-03-24_12h45_39](https://user-images.githubusercontent.com/68945305/227512923-b68d7c97-22fb-4e3b-9ca3-59e835b93bf9.png) = |->, thus creating an equal superposition of the two basis states.
+It has the matrix:
+
+![2023-03-24_12h55_46](https://user-images.githubusercontent.com/68945305/227514820-95d36f4c-11ce-47bb-bdcf-ef68002436e0.png)
+
+
+A qubit can exist in a superposition of its two "basis" states, which loosely means that it is in both states simultaneously. When measuring a qubit, the result is a probabilistic output of a classical bit, so for one single qubit, the measurement can give either |1> or |0> depending on the probabilistic state.
+With that said, we cannot use one iteration to decode the message like in the previous task, we need to print all the possibilities (or almost) to see the different reults of measurements, and get the decoded message.
+To make the task easier and less time consuming, the description specifies that the secret contains two english words and it doesn't contain special characters nor numbers. So we will filter the results based on these two facts.
 
 ```
 import matplotlib
@@ -58,7 +71,7 @@ while(1):
         vect1 = state_vect(output_array[i+1])
         vect2 = state_vect(output_array[i+2])
 
-        #initialize the register
+        #in itialize the register
         qc.initialize(vect0,2)
         qc.initialize(vect1,1)
         qc.initialize(vect2,0)
